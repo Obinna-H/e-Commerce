@@ -1,0 +1,10 @@
+CREATE TABLE `eshopper`.`social_media` (
+  `sn` INT NOT NULL AUTO_INCREMENT,
+  `LinkedIn` VARCHAR(90) NOT NULL DEFAULT '#',
+  `Twitter` VARCHAR(90) NOT NULL DEFAULT '#',
+  `Facebook` VARCHAR(90) NOT NULL DEFAULT '#',
+  `Instagram` VARCHAR(90) NOT NULL DEFAULT '#',
+  `Google_plus` VARCHAR(90) NOT NULL DEFAULT '#',
+  `Phone` VARCHAR(40) NOT NULL DEFAULT '#',
+  `Email` VARCHAR(45) NOT NULL DEFAULT '#',
+  PRIMARY KEY (`sn`));

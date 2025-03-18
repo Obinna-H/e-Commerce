@@ -1,0 +1,15 @@
+CREATE TABLE `eshopper`.`product_description` (
+  `sn` INT NOT NULL AUTO_INCREMENT,
+  `prd_img` MEDIUMBLOB NOT NULL,
+  `userid` VARCHAR(45) NOT NULL,
+  `doc_id` INT NOT NULL,
+  `barcode` VARCHAR(45) NOT NULL,
+  `item` VARCHAR(45) NOT NULL,
+  `amt` DOUBLE NOT NULL,
+  `qty` INT NOT NULL,
+  `size` INT NOT NULL,
+  `color` VARCHAR(45) NOT NULL,
+  `brand` VARCHAR(45) NOT NULL,
+  `status` VARCHAR(45) NOT NULL,
+ `date_time` DATETIME NOT NULL,
+  PRIMARY KEY (`sn`));
